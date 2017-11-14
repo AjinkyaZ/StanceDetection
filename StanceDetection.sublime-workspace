@@ -1,0 +1,982 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"y_pre",
+				"y_predindex"
+			],
+			[
+				"fibo",
+				"fibodp"
+			],
+			[
+				"mid",
+				"mid"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"zero",
+				"zero_one_result"
+			],
+			[
+				"is",
+				"isinstance"
+			],
+			[
+				"list",
+				"list_params"
+			],
+			[
+				"eror",
+				"error_class"
+			],
+			[
+				"y_",
+				"y_class"
+			],
+			[
+				"y_loc",
+				"y_loc"
+			],
+			[
+				"reg",
+				"register_hook"
+			],
+			[
+				"tes",
+				"test_loss"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"ypre",
+				"ypred_l"
+			],
+			[
+				"ypred",
+				"ypred_c"
+			],
+			[
+				"loc",
+				"loc_loss"
+			],
+			[
+				"class",
+				"class_loss"
+			],
+			[
+				"size",
+				"size_average"
+			],
+			[
+				"test",
+				"test_y_class"
+			],
+			[
+				"flo",
+				"FloatTensor"
+			],
+			[
+				"optim",
+				"optimizer"
+			],
+			[
+				"com",
+				"composite_losses"
+			],
+			[
+				"compo",
+				"composite_loss"
+			],
+			[
+				"loc_l",
+				"loc_loss_fn"
+			],
+			[
+				"line",
+				"linear1"
+			],
+			[
+				"of",
+				"offset_predict"
+			],
+			[
+				"y_class",
+				"y_class_predict"
+			],
+			[
+				"y_lo",
+				"y_loc_predict"
+			],
+			[
+				"y_cl",
+				"y_class_predict"
+			],
+			[
+				"prev",
+				"prev_word"
+			],
+			[
+				"token",
+				"tokens"
+			],
+			[
+				"firs",
+				"first_word"
+			],
+			[
+				"mat",
+				"matches_hashpat"
+			],
+			[
+				"has",
+				"matches_hashpat"
+			],
+			[
+				"do",
+				"do_averaging"
+			],
+			[
+				"dev",
+				"dev_set"
+			],
+			[
+				"trai",
+				"train_set"
+			],
+			[
+				"read",
+				"read_tagging_file"
+			],
+			[
+				"get",
+				"get_averaged_weights"
+			],
+			[
+				"pred",
+				"pred_feats"
+			],
+			[
+				"fea",
+				"features_for_seq"
+			],
+			[
+				"lable",
+				"labelseq"
+			],
+			[
+				"weih",
+				"weight_sums"
+			],
+			[
+				"ge",
+				"greedy_decode"
+			],
+			[
+				"we",
+				"weights"
+			],
+			[
+				"tag",
+				"tag"
+			],
+			[
+				"gol",
+				"goldlabels"
+			],
+			[
+				"di",
+				"dict_subtract"
+			],
+			[
+				"gold",
+				"goldlabels"
+			],
+			[
+				"fe",
+				"features_for_seq"
+			],
+			[
+				"go",
+				"goldlabels"
+			],
+			[
+				"im",
+				"import"
+			],
+			[
+				"A",
+				"A_factor"
+			],
+			[
+				"O",
+				"OUTPUT_VOCAB"
+			],
+			[
+				"feat",
+				"feat_vec"
+			],
+			[
+				"lo",
+				"local_emission_features"
+			],
+			[
+				"trans",
+				"trans_key"
+			],
+			[
+				"label",
+				"labelseq"
+			],
+			[
+				"labe",
+				"labelseq"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"def",
+				"defaultdict"
+			],
+			[
+				"wei",
+				"weight_sums"
+			],
+			[
+				"ste",
+				"step_update"
+			],
+			[
+				"av",
+				"averaged_weights"
+			],
+			[
+				"averag",
+				"averaged_weights"
+			],
+			[
+				"step",
+				"step_update_avg"
+			],
+			[
+				"weights",
+				"weight_sums"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"upda",
+				"update_vec"
+			],
+			[
+				"max",
+				"max_path"
+			],
+			[
+				"pat",
+				"path_sum"
+			],
+			[
+				"ot",
+				"output_vocab"
+			],
+			[
+				"N",
+				"N"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"path",
+				"path_sums_k"
+			],
+			[
+				"paths_",
+				"path_sums_k"
+			],
+			[
+				"back",
+				"backp"
+			],
+			[
+				"dict",
+				"dict_argmax"
+			],
+			[
+				"B",
+				"B_tk"
+			],
+			[
+				"V",
+				"V_tk_prev"
+			],
+			[
+				"ba",
+				"backtrace_index"
+			],
+			[
+				"dct",
+				"dict_argmax"
+			],
+			[
+				"dic",
+				"dict_argmax"
+			],
+			[
+				"in",
+				"in"
+			],
+			[
+				"sum",
+				"sum_term"
+			],
+			[
+				"outp",
+				"output_vocab"
+			],
+			[
+				"A_jk",
+				"A_jk_total"
+			],
+			[
+				"B_t",
+				"B_tk"
+			],
+			[
+				"B_tk",
+				"B_tk_total"
+			],
+			[
+				"A_",
+				"A_jk"
+			],
+			[
+				"B_",
+				"B_factors"
+			],
+			[
+				"state",
+				"state_probs"
+			],
+			[
+				"total",
+				"total_sum"
+			],
+			[
+				"out",
+				"output_vocab"
+			],
+			[
+				"so",
+				"sofar"
+			],
+			[
+				"all",
+				"allpaths"
+			],
+			[
+				"POS_",
+				"POS_POSTERIOR"
+			],
+			[
+				"p_wor",
+				"p_word_neg"
+			],
+			[
+				"p_wo",
+				"p_word_given_label_and_pseudocount"
+			],
+			[
+				"log",
+				"log_likelihood"
+			],
+			[
+				"NEG",
+				"NEG_LABEL"
+			],
+			[
+				"POS",
+				"POS_LABEL"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"NE",
+				"NEG_POSTERIOR"
+			],
+			[
+				"unn",
+				"unnormalized_log_posterior"
+			],
+			[
+				"class_",
+				"class_total_doc_counts"
+			],
+			[
+				"class_to",
+				"class_total_doc_counts"
+			],
+			[
+				"p_w_given",
+				"p_word_given_label_and_pseudocount"
+			],
+			[
+				"class_total",
+				"class_total_word_counts"
+			],
+			[
+				"pa",
+				"path_to_data"
+			],
+			[
+				"word",
+				"word_counts"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"tr",
+				"tr\tTag"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"cel",
+				"cellspacing\tAttr"
+			],
+			[
+				"reu",
+				"reuters_sports"
+			],
+			[
+				"req",
+				"Request\tclass"
+			],
+			[
+				"spl",
+				"split_into_sentences"
+			],
+			[
+				"textra",
+				"textrank_tfidf"
+			],
+			[
+				"summary",
+				"summary_function"
+			],
+			[
+				"summar",
+				"summary_function"
+			],
+			[
+				"st",
+				"stopwords"
+			],
+			[
+				"min",
+				"min_df\tparam"
+			],
+			[
+				"summse",
+				"summsents\tstatement"
+			],
+			[
+				"source",
+				"source_index\tstatement"
+			],
+			[
+				"source_",
+				"source_index"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"auto",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git add R",
+				"Git: Add Current File"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint f",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"lint",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"liint",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"lintin",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"pep8",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"aut",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"lin",
+				"Anaconda: Next lint error"
+			],
+			[
+				"linto",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"setsyn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsyn pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"setsynhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsyn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ajinkya/Projects/StanceDetection"
+	],
+	"file_history":
+	[
+		"/home/ajinkya/Projects/coursework/cs689/HW03/code/ae.py",
+		"/home/ajinkya/Projects/dsapractice/adddigits.py",
+		"/home/ajinkya/Projects/coursework/cs689/HW03/code/mm.py",
+		"/home/ajinkya/Downloads/parse_mif_new.py",
+		"/home/ajinkya/Projects/dsapractice/armstrong.py",
+		"/home/ajinkya/Projects/dsapractice/fibodp.py",
+		"/home/ajinkya/Projects/dsapractice/lcs.py",
+		"/home/ajinkya/Projects/dsapractice/fibo.py",
+		"/home/ajinkya/Projects/dsapractice/binsearch.py",
+		"/home/ajinkya/Projects/dsapractice/graph.py",
+		"/home/ajinkya/Projects/dsapractice/queue.py",
+		"/home/ajinkya/Projects/dsapractice/binarysearchtree.py",
+		"/home/ajinkya/Projects/dsapractice/binarytree.py",
+		"/home/ajinkya/Projects/dsapractice/bfs.py",
+		"/home/ajinkya/Projects/dsapractice/deque.py",
+		"/home/ajinkya/Projects/dsapractice/stackedqueue.py",
+		"/home/ajinkya/Projects/dsapractice/quicksort.py",
+		"/home/ajinkya/Projects/dsapractice/paracheck.py",
+		"/home/ajinkya/Projects/dsapractice/stack.py",
+		"/home/ajinkya/Projects/dsapractice/dfs.py",
+		"/home/ajinkya/Projects/dsapractice/binaryheap.py",
+		"/home/ajinkya/Projects/coursework/cs689/HW02/code/svm.py",
+		"/home/ajinkya/Projects/coursework/cs689/HW02/code/nn.py",
+		"/home/ajinkya/Downloads/690V Midterm/WordAnalysisTSNE.py",
+		"/home/ajinkya/Projects/dsapractice/spiral.py",
+		"/home/ajinkya/Projects/coursework/cs585/hw02/vit_starter.py",
+		"/home/ajinkya/Projects/coursework/cs585/hw02/vit.py",
+		"/home/ajinkya/Projects/coursework/cs585/hw02/classperc.py",
+		"/home/ajinkya/Projects/dsapractice/bubblesort.py",
+		"/home/ajinkya/Projects/coursework/cs585/hw1/hw_1.py",
+		"/home/ajinkya/Projects/reddit-saved-exporter/reddit_saves.ipynb",
+		"/home/ajinkya/Projects/reddit-saved-exporter/export_saves.py",
+		"/home/ajinkya/Projects/dsapractice/insertionsort.py",
+		"/home/ajinkya/Projects/backprop/README.md",
+		"/home/ajinkya/SOP.txt",
+		"/home/ajinkya/2.txt",
+		"/home/ajinkya/1.txt",
+		"/home/ajinkya/Projects/FYProject/textrank.py",
+		"/home/ajinkya/Projects/FYProject/parser.py",
+		"/home/ajinkya/Projects/FYProject/fetch_feeds.py",
+		"/home/ajinkya/.config/terminator/config",
+		"/home/ajinkya/.vimrc",
+		"/home/ajinkya/.ssh/id_rsa/id_rsa.pub",
+		"/home/ajinkya/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/fyproject-meteor.css",
+		"/home/ajinkya/Documents/firefoxstartpage.html",
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/fyproject-meteor.js",
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/fyproject-meteor.",
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/fyproject-meteor.html",
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/bootstrap.min.css",
+		"/home/ajinkya/Projects/FYProject/README.md",
+		"/home/ajinkya/Projects/FYProject/keyrank.py",
+		"/home/ajinkya/Projects/FYProject/pagerank.py",
+		"/home/ajinkya/Projects/FYProject/view_data.py",
+		"/home/ajinkya/Documents/firefoxstart.html",
+		"/media/ajinkya/6261-6562/wrxkyiamuz..vbs",
+		"/home/ajinkya/filelist.txt",
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/about.html",
+		"/home/ajinkya/Projects/testsite/main_2.php",
+		"/home/ajinkya/Projects/testsite/init.php",
+		"/home/ajinkya/Projects/FYProject/backup/fyproject-meteor.html",
+		"/home/ajinkya/Projects/FYProject/skvec.py",
+		"/home/ajinkya/Projects/FYProject/db_test.py",
+		"/home/ajinkya/Projects/FYProject/feeds_test.py",
+		"/home/ajinkya/Projects/FYProject/.pagerank.py.swp",
+		"/home/ajinkya/Projects/neuralnets/neural11.py",
+		"/home/ajinkya/Clones/sumy/sumy/summarizers/lsa.py",
+		"/home/ajinkya/Clones/sumy/sumy/summarizers/lex_rank.py",
+		"/home/ajinkya/Clones/sumy/sumy/summarizers/text_rank.py",
+		"/home/ajinkya/movies.txt",
+		"/home/ajinkya/Projects/dataFYProject/stopresults2.txt",
+		"/home/ajinkya/Projects/dataFYProject/stopresults.txt",
+		"/var/www/html/detroix/css/main.css",
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/.meteor/local/build/programs/web.browser/merged-stylesheets.css",
+		"/home/ajinkya/Downloads/textranksim.py",
+		"/home/ajinkya/Projects/FYProject/gensimtest.py",
+		"/home/ajinkya/Projects/FYProject/summ_test.py",
+		"/home/ajinkya/dsapractice/coverpoints.py",
+		"/home/ajinkya/Projects/pagernk.py",
+		"/media/ajinkya/PIMENTO/Ex_files_Creating_a_website_using__Bootstrap/template.html",
+		"/home/ajinkya/dsapractice/pagernk.py",
+		"/home/ajinkya/Projects/FYProject/textrank",
+		"/media/ajinkya/Ajinkya/Projects/MNIST/makesubmission.py",
+		"/home/ajinkya/dsapractice/boomconst.py",
+		"/home/ajinkya/dsapractice/boomconst-debug.py",
+		"/home/ajinkya/Downloads/boomerang_constellations_example_output(2).txt",
+		"/media/ajinkya/Ajinkya/Projects/FYProject/fyproject-meteor/fyproject-meteor.js",
+		"/home/ajinkya/Projects/FYProject/feed_intf.py",
+		"/home/ajinkya/Projects/FYProject/test.html",
+		"/home/ajinkya/Projects/FYProject/load_feeds.py",
+		"/home/ajinkya/playground/mergesort.py",
+		"/home/ajinkya/Projects/FYProject/test_db.py",
+		"/home/ajinkya/Projects/FYProject/test_feeds.py",
+		"/A/Projects/FYProject/fyproject-meteor/fyproject-meteor.js",
+		"/A/Projects/localmarket/README.md",
+		"/C/Users/Ajinkya/AppData/Local/Temp/Temp1_raldenhoven-downloadify-bb2f9d6.zip/raldenhoven-downloadify-bb2f9d6/README.md",
+		"/A/Projects/FYProject/daily_feeds/feed_file_2015-08-14.json",
+		"/A/Projects/FYProject/fyproject-meteor/.meteor/local/db/meteor.ns",
+		"/A/GitHub/gow/ReadMe.md",
+		"/C/Users/Ajinkya/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/A/OpenCC/Grand Theft Auto V/scripts/addins/szabopersist.lua",
+		"/C/Users/Ajinkya/Documents/Rockstar Games/CarSaves/szabopersist",
+		"/A/OpenCC/Grand Theft Auto V/scripts/szabopersist.lua",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage.dll",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/los_santos_airport_storage/layout.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/ginger_st_storage/layout.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_3/vehicle_004.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_1/vehicle_000.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_2/vehicle_000.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_3/vehicle_003.xml",
+		"/A/OpenCC/Grand Theft Auto V/szabopersist.lua",
+		"/A/Projects/FYProject/daily_feeds/feed_file_2015-08-13.json",
+		"/A/Projects/FYProject/load_feeds.py",
+		"/A/Projects/FYProject/hangman.py",
+		"/C/Users/Ajinkya/Downloads/missionaries_and_cannibals.py",
+		"/C/Users/Ajinkya/Downloads/missionaries_and_cannibals (1).py",
+		"/A/Projects/FYProject/bfs.py",
+		"/A/Projects/FYProject/daily_feeds/feed_file_2015-08-09.json",
+		"/A/Projects/FYProject/test_newspaper.py",
+		"/A/Projects/aima stuff/romania_search.py",
+		"/A/Projects/aima stuff/binary_search.py",
+		"/A/Projects/MNIST/temp.py",
+		"/C/Users/Ajinkya/test.py",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/s2h2/footer.php",
+		"/A/Projects/MNIST/makesubmission.py",
+		"/A/Projects/MNIST/test_loading.py",
+		"/A/Projects/MNIST/test_ttt.py",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/s2h2/header.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{0: 0.024390243902439025,\n                          1: 0.024390243902439025,\n                          2: 0.024390243902439025",
+			"print(",
+			"self.",
+			"self, ",
+			"\t",
+			"zeros",
+			"FloatTensor",
+			"X",
+			" print",
+			"1.0/X.size()[0]",
+			"hidden1",
+			"out2",
+			"hidden1",
+			"size_average=True",
+			"False",
+			"(1.0/X.size()[0])",
+			"BCELoss",
+			"lr",
+			"final_loss",
+			"size_average=False",
+			"test_X",
+			"True",
+			"torch.zeros",
+			"predict",
+			"print",
+			"hash",
+			"print",
+			"goldlabel in ex",
+			"features_for_label"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"    ",
+			"DoubleTensor",
+			"size_average=False",
+			"BCEWithLogitsLoss"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 154.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "StanceDetection.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"test.py",
+				"test.py"
+			],
+			[
+				"tes",
+				"Data\\test.csv"
+			],
+			[
+				"main",
+				"css\\main.css"
+			],
+			[
+				"footer",
+				"footer.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1027.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/neuralnets/neuralnets.sublime-project"
+			]
+		],
+		"width": 1855.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
