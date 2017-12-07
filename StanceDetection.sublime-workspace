@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"revmapping"
+			],
+			[
 				"y_pre",
 				"y_predindex"
 			],
@@ -510,15 +514,29 @@
 			[
 				"source",
 				"source_index\tstatement"
-			],
-			[
-				"source_",
-				"source_index"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/testmodels.py",
+			"settings":
+			{
+				"buffer_size": 5749,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "baseline/fnc_kfold.py",
+			"settings":
+			{
+				"buffer_size": 3298,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -669,10 +687,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/ajinkya/Projects/StanceDetection"
+		"/home/ajinkya/Projects/StanceDetection",
+		"/home/ajinkya/Projects/StanceDetection/baseline",
+		"/home/ajinkya/Projects/StanceDetection/data",
+		"/home/ajinkya/Projects/StanceDetection/report",
+		"/home/ajinkya/Projects/StanceDetection/src"
 	],
 	"file_history":
 	[
+		"/home/ajinkya/Projects/StanceDetection/baseline/fnc_kfold.py",
+		"/home/ajinkya/Projects/StanceDetection/src/utils/score.py",
+		"/home/ajinkya/Projects/StanceDetection/baseline/feature_engineering.py",
+		"/home/ajinkya/Projects/haskell/my-project/app/Main.hs",
+		"/home/ajinkya/Projects/haskell/my-project/my-project.cabal",
+		"/home/ajinkya/Projects/haskell/my-project/gan-mnist.hs",
+		"/home/ajinkya/Projects/StanceDetection/baseline/utils/dataset.py",
+		"/home/ajinkya/Projects/StanceDetection/README.md",
 		"/home/ajinkya/Projects/coursework/cs689/HW03/code/ae.py",
 		"/home/ajinkya/Projects/dsapractice/adddigits.py",
 		"/home/ajinkya/Projects/coursework/cs689/HW03/code/mm.py",
@@ -792,19 +822,11 @@
 		"/A/Projects/FYProject/bfs.py",
 		"/A/Projects/FYProject/daily_feeds/feed_file_2015-08-09.json",
 		"/A/Projects/FYProject/test_newspaper.py",
-		"/A/Projects/aima stuff/romania_search.py",
-		"/A/Projects/aima stuff/binary_search.py",
-		"/A/Projects/MNIST/temp.py",
-		"/C/Users/Ajinkya/test.py",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/s2h2/footer.php",
-		"/A/Projects/MNIST/makesubmission.py",
-		"/A/Projects/MNIST/test_loading.py",
-		"/A/Projects/MNIST/test_ttt.py",
-		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/s2h2/header.php"
+		"/A/Projects/aima stuff/romania_search.py"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 72.0
 	},
 	"find_in_files":
 	{
@@ -818,6 +840,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mapping",
+			"LABELS",
 			"{0: 0.024390243902439025,\n                          1: 0.024390243902439025,\n                          2: 0.024390243902439025",
 			"print(",
 			"self.",
@@ -868,8 +892,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/testmodels.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2088.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "baseline/fnc_kfold.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3298,
+								3298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1089.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -911,6 +996,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 174.0
 	},
 	"pinned_build_system": "",
 	"project": "StanceDetection.sublime-project",

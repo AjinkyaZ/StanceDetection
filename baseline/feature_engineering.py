@@ -19,7 +19,6 @@ def get_tokenized_lemmas(s):
 
 def clean(s):
     # Cleans a string: Lowercasing, trimming, removing non-alphanumeric
-
     return " ".join(re.findall(r'\w+', s, flags=re.UNICODE)).lower()
 
 
@@ -204,6 +203,4 @@ def hand_features(headlines, bodies):
         X.append(binary_co_occurence(headline, body)
                  + binary_co_occurence_stops(headline, body)
                  + count_grams(headline, body))
-
-
     return X

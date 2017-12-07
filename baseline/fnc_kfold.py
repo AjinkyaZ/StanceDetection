@@ -32,12 +32,12 @@ if __name__ == "__main__":
     parse_params()
 
     #Load the training dataset and generate folds
-    d = DataSet(path='../data/train')
+    d = DataSet()
     folds,hold_out = kfold_split(d,n_folds=10)
     fold_stances, hold_out_stances = get_stances_for_folds(d,folds,hold_out)
 
     # Load the competition dataset
-    competition_dataset = DataSet("competition_test", path='../data/competition_test')
+    competition_dataset = DataSet("competition_test")
     X_competition, y_competition = generate_features(competition_dataset.stances, competition_dataset, "competition")
 
     Xs = dict()
