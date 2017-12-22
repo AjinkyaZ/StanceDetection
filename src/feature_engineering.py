@@ -8,9 +8,15 @@ import _pickle as cPickle
 
 _wnl = nltk.WordNetLemmatizer()
 with open('../data/glove.6B.200d.pkl', 'rb') as f:
+    print("Loading GloVE data")
     TEXT_DICT = cPickle.load(f)
-    print("Loaded GloVE data")
+    print("... Done. Vocab:", len(TEXT_DICT), ",", len(TEXT_DICT["a"]))
 
+with open('../data/vocab_counts_1000.pkl', 'rb') as f:
+    print("Loading BoW Vocab data")
+    BOW = cPickle.load(f)
+    BOW_indexes = {w[0]:i for i, w in enumerate(BOW)}
+    print("... Done. Vocab:", len(BOW))
 
 def normalize_word(w):
     return _wnl.lemmatize(w).lower()
@@ -41,24 +47,46 @@ def gen_or_load_feats(feat_fn, headlines, bodies, feature_file):
 def bow_averaged_vectors(headlines, bodies):
     X = []
     for i, (headline, body) in tqdm(enumerate(zip(headlines, bodies))):
-        clean_headline_tokens = [w for w in nltk.word_tokenize(clean(headline))]
-        clean_body_tokens = [w for w in nltk.word_tokenize(clean(body))]
+        clean_headline_tokens = [w for w in remove_stopwords(nltk.word_tokenize(clean(headline)))]
+        clean_body_tokens = [w for w in remove_stopwords(nltk.word_tokenize(clean(body)))]
         len_h = len(clean_headline_tokens)
         len_b = len(clean_body_tokens)
 
-        vec_wsh = [TEXT_DICT[w] for w in clean_headline_tokens if w in TEXT_DICT][:20]
+        vec_wsh = [TEXT_DICT[w] for w in clean_headline_tokens if w in TEXT_DICT]
         vec_wsb = [TEXT_DICT[w] for w in clean_body_tokens if w in TEXT_DICT][:200]
         if len(vec_wsh)>0:
-            X_hi = np.mean(np.array(vec_wsh), axis=0)
+            X_hi = np.sum(np.array(vec_wsh), axis=0)/np.linalg.norm(np.array(vec_wsh))
         else:
             X_hi = np.random.randn(200,)
         if len(vec_wsb)>0:
-            X_bi = np.mean(np.array(vec_wsb), axis=0)
+            X_bi = np.sum(np.array(vec_wsb), axis=0)/np.linalg.norm(np.array(vec_wsb))
         else:
             X_bi = np.random.randn(200,)
         Xi = np.hstack((X_hi, X_bi))
         X.append(Xi)
     return X
+
+def bow_count_vectors(headlines, bodies):
+    X = []
+    for i, (headline, body) in tqdm(enumerate(zip(headlines, bodies))):
+        clean_headline_tokens = [w for w in nltk.word_tokenize(clean(headline))]
+        clean_body_tokens = [w for w in nltk.word_tokenize(clean(body))]
+        len_h = len(clean_headline_tokens)
+        len_b = len(clean_body_tokens)
+        vec_wsb = [0]*len(BOW)
+        for w in clean_body_tokens:
+            if w in BOW_indexes:
+                vec_wsb[BOW_indexes[w]] += 1.0
+        vec_wsh = [0]*len(BOW)
+        for w in clean_headline_tokens:
+            if w in BOW_indexes:
+                vec_wsh[BOW_indexes[w]] += 1.0
+        X_hi = np.array(vec_wsh)
+        X_bi = np.array(vec_wsb)
+        Xi = np.hstack((X_hi, X_bi))
+        X.append(Xi)
+    return X
+
 
 def word_overlap_features(headlines, bodies):
     X = []
